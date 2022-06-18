@@ -1,0 +1,36 @@
+/* MAIN CONTENT */
+/* div 1 */
+.main {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  margin: 128px 320px;
+  gap: 16px;
+
+  background-color: var(--header-footer-bg);
+}
+
+.main-sub {
+  display: flex;
+  flex-direction: column;
+  width: 464px;
+}
+
+.main-text {
+  color: var(--hero-header-color);
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.main-sub div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main img {
+  background-color: gray;
+  margin-top: auto;
+  width: 492px;
+  height: 240px;
+  margin-bottom: auto;
+}

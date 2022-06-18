@@ -1,0 +1,23 @@
+/* CALL TO ACTION */
+.call-to-action {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 200px;
+  
+  background-color: var(--signup-button-color);
+  padding: 32px 96px;
+  border-radius: 8px;
+}
+
+.call-to-action .sign-up {
+  border: 2px var(--hero-header-color) solid;
+  margin: 8px 0px;
+  width: 128px;
+}
+
+.cta-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--hero-header-color);
+}

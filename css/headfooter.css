@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; NOT WORKI*/
+  /* align-items: stretch; */
+  /* align-content: space-between; */
+
+  margin: 0; /* removes the extra bg space */
+
+  background-color: var(--header-footer-bg);
+}
+
+p {
+  margin: 0;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.secondary-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.sign-up {
+  width: 128px;
+  padding: 8px 16px;
+  margin: 16px 0;
+
+  background-color: var(--signup-button-color);
+  color: var(--hero-header-color);
+
+  font-size: 16px;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 8px;
+}
+
+/* HEADER */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 128px; */
+  padding: 0 320px;
+
+  /* also for footer */
+}
+
+.header-logo {
+  color: var(--hero-header-color);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
