@@ -18,7 +18,7 @@
 
 .information-header {
   font-size: 36px;
-  font-weight: bolder;
+  font-weight: 900;
   color: var(--header-footer-bg)
 }
 

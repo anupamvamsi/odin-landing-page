@@ -19,11 +19,11 @@
   text-align: justify;
   font-size: 36px;
   font-style: italic;
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 .quote-owner {
   align-self: flex-end;
-  font-weight: bold;
+  font-weight: 700;
   margin: 16px 0 0 0;
 }

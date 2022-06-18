@@ -19,7 +19,7 @@
 .main-text {
   color: var(--hero-header-color);
   font-size: 48px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .main-sub div {
