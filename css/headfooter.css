@@ -61,6 +61,7 @@ button:hover {
   align-items: center;
   /* margin: 0 128px; */
   padding: 8px 320px 0 320px;
+  padding: 0.5% 8% 0% 8%;
 
   /* also for footer */
 }
@@ -86,5 +87,5 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 48px;
+  padding: 2%;
 }
