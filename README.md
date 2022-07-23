@@ -1,4 +1,4 @@
-# odin-landing-page
+# [odin-landing-page](https://anupamvamsi.github.io/odin-landing-page/)
 ## [Project 2 (TheOdinProject)](https://www.theodinproject.com/lessons/790/)
 
 The project is aimed to test the understanding of HTML and CSS by building a website from scratch, given a design, for example by using a picture.
