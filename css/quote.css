@@ -1,7 +1,5 @@
 /* TESTIMONIALS */
 .customer-says {
-  width: 100%;
-  margin: 4%;
   display: flex;
   flex-direction: column;
   background-color: var(--testimonial-bg);
@@ -10,14 +8,14 @@
 
 .testimonial {
   width: 70%;
-  padding: 8%;
+  padding: 6em;
   display: flex;
   flex-direction: column;
 }
 
 .quote-text {
   text-align: justify;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-style: italic;
   font-weight: 300;
 }
@@ -25,5 +23,5 @@
 .quote-owner {
   align-self: flex-end;
   font-weight: 700;
-  margin: 2% 0 0 0;
+  margin: 0.81em 0 0 0;
 }
