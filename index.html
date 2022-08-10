@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>TOP - Landing Page</title>
     <link rel="stylesheet" href="./css/headfooter.css" />
     <link rel="stylesheet" href="./css/variables.css" />
@@ -19,10 +20,8 @@
   </head>
 
   <body>
-    <div class="grid-wrapper">
-      <div class="top-grid">
-        <!-- HEADER -->
-        <!-- <header class="header"> -->
+    <div class="container">
+      <header class="header">
         <p class="header-logo">Header Logo</p>
         <ul class="header-links">
           <li>
@@ -35,40 +34,32 @@
             <a class="secondary-text" href="#">header link three</a>
           </li>
         </ul>
-        <!-- </header> -->
+      </header>
 
-        <!-- MAIN CONTENT -->
-        <!-- div 1 (blue) -->
-        <!-- <section class="main"> -->
-        <!-- div 1.1 -->
-        <div class="main-sub">
-          <p class="main-text">This website is awesome</p>
+      <section class="main">
+        <div class="main-left">
+          <p class="main-hero">This website is awesome</p>
           <div>
             <p class="secondary-text">
               This website has some subtext that goes here under the main title.
               It's a smaller font and the color is lower contrast.
             </p>
-            <button class="sign-up">Sign up</button>
+            <button class="btn-signup">Sign up</button>
           </div>
         </div>
 
-        <!-- img -->
-        <div class="main-img">
+        <div class="main-right">
           <img
             src="./ref/abc.png"
             alt="Here is placeholder text for the image"
           />
         </div>
-        <!-- </section> -->
-      </div>
+      </section>
 
-      <!-- div 2 (white) -->
       <section class="mid">
-        <!-- div 2.1 information -->
         <div class="information">
           <p class="information-header">Some random information.</p>
 
-          <!-- div 2.1.1 with images -->
           <div class="images">
             <div class="image">
               <img src="./ref/1.png" alt="1.png placeholder" />
@@ -100,7 +91,6 @@
           </div>
         </div>
 
-        <!-- div 2.2 (gray) -->
         <div class="customer-says">
           <div class="testimonial">
             <p class="quote-text">
@@ -112,7 +102,6 @@
           </div>
         </div>
 
-        <!-- div 2.3 (blue) -->
         <div class="call-to-action">
           <div>
             <p class="cta-header">Call to action! It's time!</p>
@@ -120,12 +109,11 @@
               Sign up for our product by clicking that button right over there!
             </p>
           </div>
-          <button class="sign-up">Sign up</button>
+          <button class="btn-signup">Sign up</button>
         </div>
       </section>
 
-      <!-- FOOTER -->
-      <footer class="footer">
+      <!-- <footer class="footer">
         <a href="https://github.com/anupamvamsi">
           <img
             class="socials"
@@ -134,7 +122,7 @@
           />
         </a>
         <p class="secondary-text">Copyright &copy; The Odin Project 2022</p>
-      </footer>
+      </footer> -->
     </div>
   </body>
 </html>
