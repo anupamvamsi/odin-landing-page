@@ -1,24 +1,47 @@
-/* CALL TO ACTION */
-.call-to-action {
+/* ///////////////////////////////// */
+/* ///////////// CALL TO ACTION //// */
+/* ///////////////////////////////// */
+.cta {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   gap: 4em;
 
   background-color: var(--signup-button-color);
   border-radius: 0.5em;
+
   padding: 2em 3em;
-  margin: auto;
+  margin: 2em 2em;
 }
 
-.call-to-action .sign-up {
+.cta p {
+  margin: 0;
+}
+
+.cta .secondary-text {
+  text-align: left;
+}
+
+.cta .btn-signup {
   border: 0.125rem var(--hero-header-color) solid;
-  margin: 0.8em 0;
-  width: 8em;
+
+  margin: 1em 0;
 }
 
 .cta-header {
   font-size: 1.5rem;
   font-weight: 700;
+
   color: var(--hero-header-color);
+}
+
+@media screen and (max-width: 900px) {
+  .cta {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+
+    padding: 2em;
+  }
 }

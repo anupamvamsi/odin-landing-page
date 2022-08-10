@@ -18,16 +18,23 @@
   width: 40%;
 }
 
+.main-left .secondary-text {
+  text-align: left;
+}
+
 .main-hero {
-  color: var(--hero-header-color);
   font-size: 3rem;
   font-weight: 900;
+
   margin: 0;
+
+  color: var(--hero-header-color);
 }
 
 .main-left div {
   display: flex;
   flex-direction: column;
+
   width: 100%;
 }
 
@@ -35,8 +42,10 @@
   align-self: stretch;
 
   display: flex;
-  background-color: gray;
+
   width: 50%;
+
+  background-color: gray;
 }
 
 @media screen and (max-width: 900px) {

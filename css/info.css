@@ -21,9 +21,12 @@
 .information-header {
   font-size: 2.25rem;
   font-weight: 900;
-  color: var(--header-footer-bg);
+
+  margin-bottom: 0;
 
   text-align: center;
+
+  color: var(--header-footer-bg);
 }
 
 .images {
@@ -41,6 +44,7 @@
   align-items: center;
 
   width: 11em;
+
   text-align: center;
 }
 
